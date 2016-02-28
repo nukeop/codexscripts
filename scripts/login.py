@@ -44,4 +44,11 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     session, data = login(args.username, args.password)
+
+    print "\nCookies:\n"
+    for cookie in session.cookies:
+        print cookie
+
+    print "\nData:\n"
+    print data
     
