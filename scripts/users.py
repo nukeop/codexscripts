@@ -82,7 +82,7 @@ def collect_post_ids(session, data, username, searchurl, visited=[], godeeper=Fa
 
 #If running as a script, log in with provided credentials, search for a particular user's posts, and print a list of urls of those posts
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Log into Codex.')
+    parser = argparse.ArgumentParser(description='Find all posts of a user.')
     parser.add_argument('username')
     parser.add_argument('password')
     parser.add_argument('usertostalk')
