@@ -1,2 +1,3 @@
 Gooey
 tqdm
+requests
