@@ -1,3 +1,4 @@
 Gooey
 tqdm
 requests
+wx
